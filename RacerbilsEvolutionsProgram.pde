@@ -40,7 +40,7 @@ void draw() {
   text("Mutation Rate: " + carSystem.CarControllerList.get(0).mutation_rate * 100 + "%",40,550);
   text("Generation: " + generation,40,600);
   text ("Last gen average fitness: " + last_gen_average_fitness,40,625);
-  text("Fastest Lap: " + carSystem.fastest_lap,40,650);
+  text("Fastest Lap: " + carSystem.fastest_lap + " sec",40,650);
   text("Active: " + carSystem.active,40,700);
   text("Crashed: " + carSystem.crashed,40,725);
   text("Crossed finish line: " + carSystem.finished_lap,40,750);
